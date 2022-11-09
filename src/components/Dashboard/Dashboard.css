@@ -1,0 +1,11 @@
+.dashboard{
+    width: 100%;
+    min-height: 90vh;
+    background: #182747;
+    display: grid;
+    grid-template-columns: 40% 70%;
+    border-radius: 1rem;
+    box-shadow:  1rem 1rem 5rem 2rem #223256;
+  
+
+}

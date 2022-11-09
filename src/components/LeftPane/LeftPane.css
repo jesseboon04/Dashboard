@@ -1,0 +1,55 @@
+.dashboard__Wrapper{
+   
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+
+.dashboard__nav{
+
+}
+.dashboard__ul{
+list-style: none;
+display: flex;
+flex-direction: column;
+gap:2rem ;
+
+}
+.dashboard__li{
+    display: flex;
+}
+.dashboard__link{
+  
+
+}
+
+.dasboard__button{
+    height: 6rem;
+    width: 15rem;
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color: #474E68;
+    color: white;
+    border-radius: 2rem;
+    background: linear-gradient(to right,#777e97, #989aa2);
+}
+.dasboard__button:hover{
+    cursor: pointer;
+    background: linear-gradient(to right,#3a3a3a, #989aa2);
+}
+.dashboard__message{
+    background: linear-gradient(to right,85%,#5e5e5f, #989aa2);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    font-size: 70%;
+    transform: translateY(-5px);
+}
+
