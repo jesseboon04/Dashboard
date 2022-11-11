@@ -94,8 +94,8 @@ class Dashboard extends React.Component {
 
         if (this.state.open === true) {
             return (<article className="dashboard">
-                <LeftPane navigationListItems={navigationItemsObject.navigationItems} buttonText="Go Premium" />
-                <RightPane onProductCardClicked={this.onCardClicked} onButtonClicked={this.onButtonClicked} productCards={this.state.productCards} headerText={"Mijn Producten"} buttonSymbol="+" butttonText={"Voeg product toe"} />
+                <LeftPane className="leftpane" navigationListItems={navigationItemsObject.navigationItems} buttonText="Go Premium" />
+                <RightPane className="rightpane" onProductCardClicked={this.onCardClicked} onButtonClicked={this.onButtonClicked} productCards={this.state.productCards} headerText={"Mijn Producten"} buttonSymbol="+" butttonText={"Voeg product toe"} />
             </article>
             );
         };
